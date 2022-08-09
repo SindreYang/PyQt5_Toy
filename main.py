@@ -139,8 +139,7 @@ class MainWindow(QMainWindow):
 
 
     def addurl(self):
-        url = self.ui.lineEdit.text ()
-        return url
+        return self.ui.lineEdit.text ()
 
     def switch(self):
         countmax = len (open ('url', 'r').readlines ())
